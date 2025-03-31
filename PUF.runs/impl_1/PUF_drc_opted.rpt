@@ -1,0 +1,98 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Sat Mar 29 00:12:30 2025
+| Host         : Key running 64-bit major release  (build 9200)
+| Command      : report_drc -file PUF_drc_opted.rpt -pb PUF_drc_opted.pb -rpx PUF_drc_opted.rpx
+| Design       : PUF
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 9
++---------+----------+----------------------------+------------+
+| Rule    | Severity | Description                | Violations |
++---------+----------+----------------------------+------------+
+| LUTLP-2 | Warning  | Combinatorial Loop Allowed | 8          |
+| ZPS7-1  | Warning  | PS7 block required         | 1          |
++---------+----------+----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTLP-2#1 Warning
+Combinatorial Loop Allowed  
+8 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: RO1/w1_inferred_i_1, RO1/w2_inferred_i_1, RO1/w3_inferred_i_1,
+RO1/w4_inferred_i_1, RO1/w5_inferred_i_1, RO1/w6_inferred_i_1,
+RO1/w7_inferred_i_1, RO1/w8_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#2 Warning
+Combinatorial Loop Allowed  
+8 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: RO2/w1_inferred_i_1, RO2/w2_inferred_i_1, RO2/w3_inferred_i_1,
+RO2/w4_inferred_i_1, RO2/w5_inferred_i_1, RO2/w6_inferred_i_1,
+RO2/w7_inferred_i_1, RO2/w8_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#3 Warning
+Combinatorial Loop Allowed  
+8 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: RO3/w1_inferred_i_1, RO3/w2_inferred_i_1, RO3/w3_inferred_i_1,
+RO3/w4_inferred_i_1, RO3/w5_inferred_i_1, RO3/w6_inferred_i_1,
+RO3/w7_inferred_i_1, RO3/w8_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#4 Warning
+Combinatorial Loop Allowed  
+8 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: RO4/w1_inferred_i_1, RO4/w2_inferred_i_1, RO4/w3_inferred_i_1,
+RO4/w4_inferred_i_1, RO4/w5_inferred_i_1, RO4/w6_inferred_i_1,
+RO4/w7_inferred_i_1, RO4/w8_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#5 Warning
+Combinatorial Loop Allowed  
+8 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: RO5/w1_inferred_i_1, RO5/w2_inferred_i_1, RO5/w3_inferred_i_1,
+RO5/w4_inferred_i_1, RO5/w5_inferred_i_1, RO5/w6_inferred_i_1,
+RO5/w7_inferred_i_1, RO5/w8_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#6 Warning
+Combinatorial Loop Allowed  
+8 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: RO6/w1_inferred_i_1, RO6/w2_inferred_i_1, RO6/w3_inferred_i_1,
+RO6/w4_inferred_i_1, RO6/w5_inferred_i_1, RO6/w6_inferred_i_1,
+RO6/w7_inferred_i_1, RO6/w8_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#7 Warning
+Combinatorial Loop Allowed  
+8 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: RO7/w1_inferred_i_1, RO7/w2_inferred_i_1, RO7/w3_inferred_i_1,
+RO7/w4_inferred_i_1, RO7/w5_inferred_i_1, RO7/w6_inferred_i_1,
+RO7/w7_inferred_i_1, RO7/w8_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#8 Warning
+Combinatorial Loop Allowed  
+8 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: RO8/w1_inferred_i_1, RO8/w2_inferred_i_1, RO8/w3_inferred_i_1,
+RO8/w4_inferred_i_1, RO8/w5_inferred_i_1, RO8/w6_inferred_i_1,
+RO8/w7_inferred_i_1, RO8/w8_inferred_i_1.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+
