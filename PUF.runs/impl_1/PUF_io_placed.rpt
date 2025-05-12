@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date                      : Sat Mar 29 00:12:31 2025
+| Date                      : Wed Apr  2 15:36:45 2025
 | Host                      : Key running 64-bit major release  (build 9200)
 | Command                   : report_io -file PUF_io_placed.rpt
 | Design                    : PUF
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|             9 |
+|            11 |
 +---------------+
 
 
@@ -112,7 +112,7 @@ Table of Contents
 | D15        |              |            | PS_MIO33_501            | PSS IO        |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | D16        |              |            | PS_MIO46_501            | PSS IO        |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | D17        |              |            | GND                     | GND           |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
-| D18        |              | High Range | IO_L3N_T0_DQS_AD1N_35   | User IO       |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| D18        | led[3]       | High Range | IO_L3N_T0_DQS_AD1N_35   | OUTPUT        | LVCMOS33    |      35 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | D19        |              | High Range | IO_L4P_T0_35            | User IO       |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | D20        |              | High Range | IO_L4N_T0_35            | User IO       |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | E1         |              |            | PS_DDR_DQ7_502          | PSS IO        |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
@@ -168,7 +168,7 @@ Table of Contents
 | G11        |              |            | VCCBRAM                 | VCCBRAM       |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | G12        |              |            | GND                     | GND           |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | G13        |              |            | VCCINT                  | VCCINT        |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| G14        |              | High Range | IO_0_35                 | User IO       |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| G14        | led[2]       | High Range | IO_0_35                 | OUTPUT        | LVCMOS33    |      35 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | G15        | challenge[0] | High Range | IO_L19N_T3_VREF_35      | INPUT         | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | G16        |              |            | GND                     | GND           |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | G17        |              | High Range | IO_L16P_T2_35           | User IO       |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
